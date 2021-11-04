@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: blue;
+    width: 100vw;
+}
+
+section{
+    max-width: 80%;
+    margin: auto;
+}
