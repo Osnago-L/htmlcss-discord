@@ -2,5 +2,99 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Whitney, Arial, Helvetica, sans-serif;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* BANNER  */
+.banner{
+    background-color: #3161e0;
+    width: 100vw;
+    height: 60px;
+    padding: 15px;
+}
+
+.banner_size{
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+.logo img{
+    float: left;
+    width: 120px; 
+}
+nav{
+    float: left;
+    width: calc(100% - 209px);
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 30px;
+    
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+.accedi a{
+    float: right;
+    padding: 6px 16px;
+    border-radius: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+/* FROG  */
+
+.frog{
+    position:relative;
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 600px;
+}
+.frog_main{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}
+.frog_main section{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.frog_main section h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.frog_button{
+    text-align: center;
+}
+.frog_button a{
+    margin: 0 10px;
+    padding: 10px 10px;
+    border-radius: 20px 20px;
+    text-decoration: none;
+}
+.frog_button a:first-child{
+    background-color: white;
+    color: black;
+}
+.frog_button a:last-child{
+    background-color: #23272a;
+    color: white;
+}
