@@ -109,7 +109,7 @@ nav li a{
     margin: auto;
 }  
 .page1{
-    padding-bottom: 300px;
+    padding-bottom: 150px;
 }
 .page4{
     padding-top: 300px;
@@ -203,20 +203,23 @@ footer{
     color: white;
 }
 
-.right_foot table{
+.right_foot {
     float: left;
     width: 70%;
 }
-.right_foot th{
-    color: #7289da;
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 20px;
-    margin: 0 40px;
-}
 .right_foot a{
+    display: block;
     color: white;
     text-decoration: none;
+}
+.right_foot h4{
+    color: #7289da;
+}
+.right_foot div{
+    display: inline-block;
+    float: left;
+    margin: 0 30px;
+
 }
 
 hr{
