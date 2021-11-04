@@ -102,13 +102,22 @@ nav li a{
 /* MAIN PAGES  */
  main{
     padding-top: 150px;
-    padding-bottom: 100px;
 } 
 
 .main_size{
     max-width: 80%;
     margin: auto;
-}    
+}  
+.page1{
+    padding-bottom: 300px;
+}
+.page4{
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+.page2,.page3{
+    padding: 300px 0;
+}
 
 .main_size img:not(.page4 .main_size img){
     width: 50%;
@@ -125,6 +134,10 @@ nav li a{
 }
 .main_size p{
     font-size: 20px;
+}
+
+main section:nth-child(even){
+    background-color: #f6f6f6;   
 }
 
 .page4{
@@ -144,10 +157,11 @@ nav li a{
     color: white;
 }
 .download img{
+    width: 500px;
     position: relative;
-    top: 18px;
-    left: 5px;
-} */
+    top: 20px;
+}
+
 /* FOOTER  */
 footer{
     background-color: #23272a;
