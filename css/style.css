@@ -65,7 +65,7 @@ nav li a{
     height: 600px;
 }
 .frog_main{
-    width: 40%;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -84,13 +84,13 @@ nav li a{
 .frog_button{
     text-align: center;
 }
-.frog_button a{
+.frog_button a, .download a{
     margin: 0 10px;
-    padding: 10px 10px;
+    padding: 12px 30px;
     border-radius: 20px 20px;
     text-decoration: none;
 }
-.frog_button a:first-child{
+.frog_button a:first-child, .download a{
     background-color: white;
     color: black;
 }
@@ -98,3 +98,51 @@ nav li a{
     background-color: #23272a;
     color: white;
 }
+
+/* MAIN PAGES  */
+main{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.main_size{
+    max-width: 80%;
+    margin: auto;
+}
+.main_size section:not(.page4)>img{
+    width: 50%;
+    float: left;
+    
+}
+.main_size section:not(.page4)>div{
+    width: 30%;
+    float: left;
+    margin: 40px 150px;
+}
+.page1, .page2, .page3{
+    margin-bottom: 600px;
+}
+
+.main_size h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.main_size p{
+    font-size: 20px;
+}
+.page4{
+    text-align: center;
+}
+.page4 img{
+    width: 100%;
+}
+.download{
+    text-align: center;
+}
+.download h1{
+    margin-bottom: 30px;
+}
+.download a{
+    background-color: #8ea1e1;
+    color: white;
+}
+/* FOOTER  */
