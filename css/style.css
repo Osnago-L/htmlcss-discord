@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+body{
     font-family: Whitney, Arial, Helvetica, sans-serif;
 }
 
@@ -110,15 +113,14 @@ nav li a:hover{
     border-radius: 20px 20px;
     text-decoration: none;
 }
-.scarica, .download a{
+.frog_button a:first-child,.download a{
     background-color: white;
     color: black;
 }
-.browser{
-    background-color: #23272a;
+.frog_button a:last-child{
+    background-color: black;
     color: white;
 }
-
 /* MAIN PAGES  */
  main{
     padding-top: 150px;
@@ -221,7 +223,7 @@ footer{
     margin-bottom: 20px;
 }
 
-.social i{
+.fa-brands {
     color: white;
 }
 
@@ -263,3 +265,4 @@ hr{
     color: white;
     font-size: 15px;
 }
+
